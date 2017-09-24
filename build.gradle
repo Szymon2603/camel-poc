@@ -10,10 +10,27 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'application'
 
+mainClassName = 'pl.beardedcoder.camelpoc.Application'
+
 repositories {
     mavenCentral()
 }
 
+ext {
+    camelSpringBootStarter = '2.19.3'
+    camelStream = '2.19.3'
+    slf4jApi = '1.7.25'
+    slf4jSimple = '1.7.25'
+    lombok = '1.16.18'
+}
+
 dependencies {
+    compile("org.apache.camel:camel-spring-boot-starter:${camelSpringBootStarter}") {
+        exclude module: 'logback-classic'
+    }
+    compile("org.apache.camel:camel-stream:${camelStream}")
+    compile("org.slf4j:slf4j-api:${slf4jApi}")
+    compile("org.slf4j:slf4j-simple:${slf4jSimple}")
+    compile("org.projectlombok:lombok:${lombok}")
 }
 
