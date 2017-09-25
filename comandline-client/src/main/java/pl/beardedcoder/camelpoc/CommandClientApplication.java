@@ -8,10 +8,10 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 @Slf4j
-public class Application {
+public class CommandClientApplication {
 
     public static void main(String[] args) {
-        ApplicationContext applicationContext = SpringApplication.run(Application.class, args);
+        ApplicationContext applicationContext = SpringApplication.run(CommandClientApplication.class, args);
         log.info("Application is running now");
         CamelSpringBootApplicationController applicationController =
                 applicationContext.getBean(CamelSpringBootApplicationController.class);

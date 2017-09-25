@@ -18,4 +18,5 @@ include 'services:webservice'
 rootProject.name = 'camel-poc'
 include 'comandline-client'
 include 'websocket-client'
+include 'activemq-broker'
 

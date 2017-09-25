@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 public class ReceiverRouter extends RouteBuilder {
 
     @Override
-    public void configure() throws Exception {
-        from("activemq:queue:cmd-client")
+    public void configure() {
+        from("activemq:topic:cmd-client")
                 .log(LoggingLevel.INFO, "Receive message ${body}")
                 .to("stream:out");
     }

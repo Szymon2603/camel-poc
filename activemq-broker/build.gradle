@@ -13,14 +13,9 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-activemq:${springBootWebsocketStarter}") {
         exclude module: 'logback-classic'
     }
-    compile("org.springframework.boot:spring-boot-starter-web:1.5.7.RELEASE") {
-        exclude module: 'logback-classic'
-    }
-    compile("org.springframework.boot:spring-boot-starter-websocket:1.5.7.RELEASE") {
-        exclude module: 'logback-classic'
-    }
-//    compile("com.fasterxml.jackson.core:jackson-databind:2.9.1")
-//    compile("org.springframework:spring-websocket:4.3.11.RELEASE")
+
+    compile("org.apache.activemq:activemq-broker:5.15.0")
+    compile("org.apache.activemq:activemq-kahadb-store:5.15.0")
 
     compile("org.slf4j:slf4j-api:${slf4jApi}")
     compile("org.slf4j:slf4j-simple:${slf4jSimple}")

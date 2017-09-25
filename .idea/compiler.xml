@@ -5,6 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="activemq-broker_main" target="1.8" />
+      <module name="activemq-broker_test" target="1.8" />
       <module name="camel-poc_main" target="1.8" />
       <module name="camel-poc_test" target="1.8" />
       <module name="comandline-client_main" target="1.8" />
