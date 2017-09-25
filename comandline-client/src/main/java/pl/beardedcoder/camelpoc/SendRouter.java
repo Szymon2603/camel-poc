@@ -7,12 +7,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
-public class MainRouter extends RouteBuilder {
+public class SendRouter extends RouteBuilder {
 
     @Override
-    public void configure() throws Exception {
-        from("stream:in?promptMessage=:>")
-                .log(LoggingLevel.INFO, "Message arrived")
-                .to("stream:out");
+    public void configure() {
+        from("stream:in?promptMessage=> ")
+                .log(LoggingLevel.INFO, "Sending message ${body}")
+                .to("activemq:queue:ws-client");
     }
 }

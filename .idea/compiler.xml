@@ -7,6 +7,10 @@
     <bytecodeTargetLevel>
       <module name="camel-poc_main" target="1.8" />
       <module name="camel-poc_test" target="1.8" />
+      <module name="comandline-client_main" target="1.8" />
+      <module name="comandline-client_test" target="1.8" />
+      <module name="websocket-client_main" target="1.8" />
+      <module name="websocket-client_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

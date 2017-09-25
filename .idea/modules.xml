@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/camel-poc.iml" filepath="$PROJECT_DIR$/camel-poc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/camel-poc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/camel-poc_main.iml" group="camel-poc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/camel-poc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/camel-poc_test.iml" group="camel-poc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comandline-client.iml" filepath="$PROJECT_DIR$/.idea/modules/comandline-client.iml" group="comandline-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comandline-client/comandline-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/comandline-client/comandline-client_main.iml" group="comandline-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comandline-client/comandline-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/comandline-client/comandline-client_test.iml" group="comandline-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-client.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-client.iml" group="websocket-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-client/websocket-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-client/websocket-client_main.iml" group="websocket-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-client/websocket-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-client/websocket-client_test.iml" group="websocket-client" />
     </modules>
   </component>
 </project>
